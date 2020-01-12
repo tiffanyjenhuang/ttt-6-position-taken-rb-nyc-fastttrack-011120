@@ -14,6 +14,6 @@ def position_taken?(board, input)
   if board[input] == "X" || board[input] == "O"
     true
   else
-      puts "invalid"
+      false
   end
 end
