@@ -10,8 +10,8 @@ def display_board
   puts "   |   |   "
 end
 
-def position_taken?(board, input)
-  if board[input] == "X" || board[input] == "O"
+def position_taken?(board, index)
+  if board[index] == "X" || board[index] == "O"
     true
   else
       false
